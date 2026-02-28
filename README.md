@@ -16,3 +16,15 @@ Pemeriksaan meliputi struktur data, statistik deskriptif, tipe data, inconsisten
 ---
 Dari hasil analisis, usia terlihat memiliki hubungan paling kuat terhadap kejadian stroke, diikuti oleh hipertensi dan penyakit jantung. Dataset dalam kondisi bersih dan siap digunakan untuk tahap berikutnya.
 ---
+
+# CheckPoint-3 Data Preparation
+Pada checkpoint ini dilakukan proses Data Preparation pada Brain Stroke Dataset untuk meningkatkan kualitas data sebelum analisis lanjutan.
+
+### Data Cleaning
+Dilakukan pengecekan tipe data, inconsistent values, missing values, duplicated values, dan outliers. Dataset tidak memiliki missing value maupun data duplikat. Penyesuaian tipe data dilakukan pada beberapa kolom kategorikal agar sesuai dengan makna variabel. Outlier dideteksi menggunakan metode IQR dan ditangani dengan membatasi nilai ekstrem pada kolom avg_glucose_level dan bmi tanpa menghapus data.
+
+### Data Construction
+Dilakukan pembuatan kolom baru kategori_stroke yang mengubah nilai numerik pada kolom stroke menjadi kategori Stroke dan Tidak Stroke agar data lebih mudah dipahami dan diinterpretasikan.
+
+### Data Reduction
+Kolom stroke dihapus karena informasinya sudah direpresentasikan dalam kolom kategori_stroke, sehingga dataset menjadi lebih ringkas dan tidak redundan.
