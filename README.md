@@ -28,3 +28,11 @@ Dilakukan pembuatan kolom baru kategori_stroke yang mengubah nilai numerik pada 
 
 ### Data Reduction
 Kolom stroke dihapus karena informasinya sudah direpresentasikan dalam kolom kategori_stroke, sehingga dataset menjadi lebih ringkas dan tidak redundan.
+---
+
+# CheckPoint-4 Data Visualization
+
+Pada checkpoint ini dilakukan pembuatan visualisasi data dari Brain Stroke Dataset menggunakan Matplotlib dan Seaborn. Visualisasi yang dibuat meliputi Bar Chart, Pie Chart, Histogram, Box Plot, Scatter Plot, dan Heatmap untuk melihat pola serta hubungan antar variabel yang berkaitan dengan kejadian stroke.
+
+
+Dari hasil visualisasi terlihat bahwa jumlah pasien tidak stroke lebih banyak dibandingkan stroke, serta faktor seperti usia, hipertensi, penyakit jantung, kadar gula darah, dan BMI memiliki hubungan dengan risiko stroke.
